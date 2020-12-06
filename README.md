@@ -21,12 +21,7 @@
 
 <br>
 
-> When it comes to the analysis itself, you can choose between a de-novo or a reference based approach, who's steps is clesrly defined in the [STACKS](https://catchenlab.life.illinois.edu/stacks/) tool, the main algorithm used in such analyses:
-
-<br>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-![Pipelines-STACKs](/STACKs.jpg)
+> When it comes to the analysis itself, you can choose between a de-novo or a reference based approach, who's steps is clesrly defined in the [STACKS](https://catchenlab.life.illinois.edu/stacks/) tool, the main algorithm used in such analyses.
 
 <br>
 
