@@ -21,12 +21,14 @@
 
 <br>
 
-> When it comes to the analysis itself, you can choose between a de-novo or a reference based approach, who's steps is clesrly defined in the [STACKS](https://catchenlab.life.illinois.edu/stacks/) tool, the main algorithm used in such analyses.
+> When it comes to the analysis itself, you can choose between a de-novo or a reference based approach, who's steps is clesrly defined in the [STACKS](https://catchenlab.life.illinois.edu/stacks/) tool, the main algorithm used in such analyses. The following diagram summarizes the steps and inputs of each choice:
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;![ddRAD](/ddRAD.png)
 
 <br>
 
 
-**A. DeNovoddRAD**
+**A. ddRAD_DN**
 
 > This image is suitable for those who want to run a De Novo analysis with their reads. It performs a quality check on the raw reads, and then preprocessing through 
 *radtags*, to proceed to *ustacks* and the rest of the STACKS pipeline. The pipeline can either perform demultiplexing or accept demultiplexed data. <br>
@@ -56,7 +58,7 @@ The results of the image are the following:
 <br>
 
 ***
-**B. Ref_ddRAD**
+**B. ddRAD_Ref**
 
 > Ref_ddRAD is an image suitable for those who want to run an analysis using a refernce genome. It performs quality checking on the raw reads, preprocessing using *radtags*, mapping to a reference through [BWA](http://bio-bwa.sourceforge.net/bwa.shtml), and last the *gstacks* and *populations* steps of STACKS. The pipeline can either perform demultiplexing or accept demultiplexed data. <br>
 The results of the image are the following:
